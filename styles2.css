@@ -1,0 +1,59 @@
+.header{text-align: center;
+font-family: tahoma;
+color: #ffffff;}
+
+
+.description{font-style: italic;}
+
+body{background: url(https://img.freepik.com/free-photo/parked-motorcycles-captured-detailed-vertical-shot_60438-3906.jpg?t=st=1725480566~exp=1725484166~hmac=d23e995ae2863aa455fc46a2a902d2e3cc6803c478c94754053173e353829ef2&w=826);
+top: 0;
+left: 0;
+height: 100%;
+width: 70%;
+background-size: cover;
+background-repeat: repeat;
+background-position: center;
+padding: 75px;
+}
+
+.container{border-radius: 20px;
+border: 5px;
+border-color: #1ac9f8;
+background: #003080; }
+
+.form-group{
+text-align: center; font-family: tahoma;
+color: #ffffff;
+}
+
+.form-control{display: block; width: 80%;
+height: 2.375rem;
+padding: auto;
+margin-left: 95px;
+border-radius: 10px;}
+
+.input-radio, .input-checkbox{display: inline-block;
+margin-right: 0.625rem;
+min-height: 1.25rem;
+min-width: 1.25rem;
+}
+
+hr{height: 5px;
+width: 80%;
+background-color: #000000;
+border-color: #000000;}
+
+.input-textarea{min-height: 120px;
+width: 80%;
+padding: 0.625rem;
+resize: verticle;
+border-radius: 10px;}
+
+.submit-button{display: block;
+width: 85%;
+padding: .75rem;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 70px;
+background-color: yellow;
+}

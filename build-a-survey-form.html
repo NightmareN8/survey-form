@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="c:\users\skile\onedrive\documents\survey_form\styles2.css"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Motorcycle Rally Survey Form</h1>
+        <p class="description" id="description">Please tell us about your experience</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input class="form-control" type="text" id="name" placeholder="Enter your full name" required/>
+          <label id="email-label" for="email">Email</label>
+          <input class="form-control" type="email" id="email" placeholder="Enter your email" required/>
+          <label id="number-label" for="number">Age (optional)</label>
+          <input class="form-control" type="number" id="number" min="18" max="120" placeholder="Enter your age"
+        </div>
+        <div class="form-group">
+          <p>What brand bike do you ride</p>
+          <select id="dropdown" name="brand" class="form-control" required>
+            <option disabled selected value>Select Brand</option>
+            <option value="Harley-Davidson">Harley Davidson</option>
+            <option value="Honda">Honda</option>
+            <option value="Indian">Indian</option>
+            <option value="Norton">Norton</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <hr 
+        <div class="form-group">
+        <p>Will you attend our rally next year?</p>
+        <label>
+          <input name="user-recommended" value="Definately" type="radio" class="input-radio" checked>Definately</label>
+          <label>
+            <input name="user-recommended" value="Maybe" type="radio" class="input-radio">Maybe</label>
+          <label>
+            <input name="user-recommended" value="No" type="radio" class="input-radio">No</label>
+        <hr>
+        <div class="form-group">
+          <p>What was your favorite event at the rally?<span>(check all that appy)</span></p>
+          <label>
+            <input name="prefer" value="slow-race" type="checkbox" class="input-checkbox">slow race</label>
+          <label>
+            <input name="prefer" value="hotdog-grab" type="checkbox" class="input-checkbox">hotdog grab</label>
+          <label>
+            <input name="prefer" value="concert" type="checkbox" class="input-checkbox">concert</label>
+          <label>
+            <input name="prefer" value="rally-queen-contest" type="checkbox" class="input-checkbox">rally queen contest</label>
+        <div class="form-group">
+          <p>Any suggestions for next year:</p>
+          <textarea id="suggestions" class="input-textarea" name="suggestions" placeholder="Enter your suggestions here..."></textarea></div>
+        <div class="form-group">
+          <button type="submit" class="submit-button" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <html/>
+
+
